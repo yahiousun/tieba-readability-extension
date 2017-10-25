@@ -1,0 +1,65 @@
+.topic {
+  font-family: serif;
+  line-height: 1.618;
+}
+
+.topic h1,
+.topic h2,
+.topic h3,
+.topic h4,
+.topic h5,
+.topic h6 {
+  text-align: center;
+  margin: 0.618em 0;
+}
+.topic h1 {
+  font-size: 3em;
+}
+.topic h2 {
+  font-size: 2.8em;
+}
+.topic h3 {
+  font-size: 2.6em;
+}
+.topic h4 {
+  font-size: 2.4em;
+}
+.topic h5 {
+  font-size: 2.2em;
+}
+.topic h6 {
+  font-size: 2em;
+}
+.topic p {
+  font-size: 2em;
+  margin: 0.618em 0;
+}
+
+.topic figure {
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.618;
+  margin: 0.618em 0;
+}
+
+.topic img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.topic blockquote {
+  color: #CCCCCC;
+  margin: 0.618em 0;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+.topic hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #CCCCCC;
+  margin: 0.618em 0;
+  padding: 0;
+}

@@ -1,0 +1,1 @@
+export { ContentPlaceholder as default } from './content-placeholder';

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "贴吧撕裂者",
+    "description": "Tieba readability"
+  },
+  "actionPreviousChapter": {
+    "message": "前一页",
+    "description": "操作 前一页"
+  },
+  "actionNextChapter": {
+    "message": "后一页",
+    "description": "操作 后一页"
+  }
+}

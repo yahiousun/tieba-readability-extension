@@ -1,0 +1,1 @@
+export { TiebaReadability as default } from './tieba-readability';

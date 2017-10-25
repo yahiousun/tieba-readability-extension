@@ -1,0 +1,17 @@
+.reader {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.reader .toolbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.reader-inner {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 915px;
+  padding: 16px;
+  margin: 0 auto;
+}

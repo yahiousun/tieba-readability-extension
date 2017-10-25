@@ -1,0 +1,1 @@
+export { Topic as default } from './topic';

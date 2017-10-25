@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Tieba Ripper",
+  "description": "A reader mode for Baidu Tieba",
+  "version": "0.0.1",
+  "default_locale": "zh_CN",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "static/js/background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Tieba Readability"
+  },
+  "web_accessible_resources": [
+    "index.html",
+    "static/js/app.js",
+    "static/css/app.css",
+    "favicon.ico"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://tieba.baidu.com/p/*"],
+      "js": ["static/js/content_scripts.js"]
+    }
+  ]
+}

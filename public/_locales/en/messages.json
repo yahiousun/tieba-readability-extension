@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Tieba Ripper",
+    "description": "The extension name"
+  },
+  "actionPreviousChapter": {
+    "message": "Previous page",
+    "description": "The name of the action previous page"
+  },
+  "actionNextChapter": {
+    "message": "Next page",
+    "description": "The name of the action next page"
+  }
+}
